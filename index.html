@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豪華スロット式デジタル抽選機</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="lottery-container">
+        <h1></h1>
+        <div id="slot-area">
+            <div class="slot-reel" id="reel1"></div>
+            <div class="slot-reel" id="reel2"></div>
+            <div class="slot-reel" id="reel3"></div>
+        </div>
+        <div id="result-message">
+            <p>スタートボタンを押してね</p>
+        </div>
+        <button id="startButton">スタート！</button>
+    </div>
+
+    <div id="prize-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModalButton">&times;</span>
+            <h2 id="modal-prize-title"></h2>
+            <img id="modal-prize-image" src="" alt="当選景品" class="modal-prize-image">
+            <p id="modal-prize-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
