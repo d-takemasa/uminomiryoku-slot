@@ -35,12 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // currentOccurrences: 現在の発生回数（初期値0）。
     // description: モーダル表示時に使う説明文。
     const prizes = [
-        { id: 'S', name: "S賞：付箋 + パフェチケット", image: "prize_images/prize_S.png", weight: 2, maxOccurrences: 1, currentOccurrences: 0, description: "海のご褒美、召し上がれ♪" },
-        { id: 'A', name: "A賞：オリジナル マスキングテープ・付箋セット", image: "prize_images/prize_A.png", weight: 50, maxOccurrences: 25, currentOccurrences: 0, description: "おめでとう！波紋のように、ひらめきが広がる便利ツール！" },
-        { id: 'B', name: "B賞：オリジナル バンダナ", image: "prize_images/prize_B.png", weight: 50, maxOccurrences: 25, currentOccurrences: 0, description: "大漁旗のように、あなたの個性をアピールしよう！" },
-        { id: 'C', name: "C賞：オリジナル スマホスタンド", image: "prize_images/prize_C.png", weight: 100, maxOccurrences: 50, currentOccurrences: 0, description: "おめでとうございます！スマホも喜ぶ特等席！！" },
-        { id: 'D', name: "D賞：オリジナル マグネットorボールペン", image: "prize_images/prize_D.png", weight: 300, maxOccurrences: 150, currentOccurrences: 0, description: "おめでとう！ピタッと大漁の幸運引き寄せ！！" },
-        { id: 'E', name: "E賞：オリジナル クリアファイル", image: "prize_images/prize_E.png", weight: 500, maxOccurrences: 250, currentOccurrences: 0, description: "漁師の網の如く、整理整頓の達人へ！！" }
+        { id: 'S', name: "S賞：付箋 + パフェチケット", image: "prize_images/prize_S.png", weight: 20, maxOccurrences: 1, currentOccurrences: 0, description: "海のご褒美、召し上がれ♪" },
+        { id: 'A', name: "A賞：オリジナル マスキングテープ・付箋セット", image: "prize_images/prize_A.png", weight: 20, maxOccurrences: 25, currentOccurrences: 0, description: "おめでとう！波紋のように、ひらめきが広がる便利ツール！" },
+        { id: 'B', name: "B賞：オリジナル バンダナ", image: "prize_images/prize_B.png", weight: 20, maxOccurrences: 25, currentOccurrences: 0, description: "大漁旗のように、あなたの個性をアピールしよう！" },
+        { id: 'C', name: "C賞：オリジナル スマホスタンド", image: "prize_images/prize_C.png", weight: 20, maxOccurrences: 50, currentOccurrences: 0, description: "おめでとうございます！スマホも喜ぶ特等席！！" },
+        { id: 'D', name: "D賞：オリジナル マグネットorボールペン", image: "prize_images/prize_D.png", weight: 20, maxOccurrences: 150, currentOccurrences: 0, description: "おめでとう！ピタッと大漁の幸運引き寄せ！！" },
+        { id: 'E', name: "E賞：オリジナル クリアファイル", image: "prize_images/prize_E.png", weight: 20, maxOccurrences: 250, currentOccurrences: 0, description: "漁師の網の如く、整理整頓の達人へ！！" }
     ];
 
     let isSpinning = false; // 抽選中フラグ
