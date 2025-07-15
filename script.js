@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 当選/ハズレを判定し、ブーリアンで結果を返す
     function checkResult(finalResults) {
         if (finalResults[0].id === finalResults[1].id && finalResults[1].id === finalResults[2].id) {
-            resultMessage.innerHTML = `<p>なにがあたるかな？！</p>`; // 簡易メッセージ
+            resultMessage.innerHTML = `<p>何が当たるかな？！</p>`; // 簡易メッセージ
             resultMessage.classList.add('message-win');
             return true; // 当選
         } else {
