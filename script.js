@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reel1.innerHTML = '';
         reel2.innerHTML = '';
         reel3.innerHTML = '';
-        resultMessage.innerHTML = '<p>なにがあたるかな</p>';
+        resultMessage.innerHTML = '<p>スタートを押してね！</p>';
         resultMessage.classList.remove('message-win', 'message-lose');
     }
 
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 当選/ハズレを判定し、ブーリアンで結果を返す
     function checkResult(finalResults) {
         if (finalResults[0].id === finalResults[1].id && finalResults[1].id === finalResults[2].id) {
-            resultMessage.innerHTML = `<p>スタートをおしてね</p>`; // 簡易メッセージ
+            resultMessage.innerHTML = `<p>なにがあたるかな？！</p>`; // 簡易メッセージ
             resultMessage.classList.add('message-win');
             return true; // 当選
         } else {
