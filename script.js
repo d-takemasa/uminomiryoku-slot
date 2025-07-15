@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reel1.innerHTML = '';
         reel2.innerHTML = '';
         reel3.innerHTML = '';
-        resultMessage.innerHTML = '<p>スタートを押してね！</p>';
+        resultMessage.innerHTML = '<p>何が当たるかな？！</p>';
         resultMessage.classList.remove('message-win', 'message-lose');
     }
 
