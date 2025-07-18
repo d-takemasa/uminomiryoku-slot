@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'A', name: "オリジナル マスキングテープ", image: "prize_images/prize_A.png", weight: 25, maxOccurrences: 25, currentOccurrences: 0, description: "おめでとう！波紋のように、ひらめきが広がる便利ツール！" },
         { id: 'B', name: "オリジナル バンダナ", image: "prize_images/prize_B.png", weight: 25, maxOccurrences: 25, currentOccurrences: 0, description: "大漁旗のように、あなたの個性をアピールしよう！" },
         { id: 'C', name: "オリジナル スマホスタンド", image: "prize_images/prize_C.png", weight: 50, maxOccurrences: 50, currentOccurrences: 0, description: "おめでとうございます！スマホも喜ぶ特等席！！" },
-        { id: 'D', name: "オリジナル マグネットorボールペン", image: "prize_images/prize_D.png", weight: 150, maxOccurrences: 150, currentOccurrences: 0, description: "おめでとう！ピタッと大漁の幸運引き寄せ！！" },
+        { id: 'D', name: "オリジナル マグネット　または　ボールペン", image: "prize_images/prize_D.png", weight: 150, maxOccurrences: 150, currentOccurrences: 0, description: "おめでとう！ピタッと大漁の幸運引き寄せ！！" },
         { id: 'E', name: "オリジナル クリアファイル", image: "prize_images/prize_E.png", weight: 250, maxOccurrences: 250, currentOccurrences: 0, description: "漁師の網の如く、整理整頓の達人へ！！" }
     ];
 
